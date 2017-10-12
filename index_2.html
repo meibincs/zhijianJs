@@ -29,8 +29,8 @@
 	var box = document.getElementById("box");
 
 	box.addEventListener("touchstart",function(ev){
-		ev.preventDefault();
-		this.style.display="none";
+		/*ev.preventDefault();
+		this.style.display="none";*/
 		console.log("touchstart");
 		this.innerHTML=ev.changedTouches.length;
 
